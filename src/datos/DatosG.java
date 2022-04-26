@@ -16,7 +16,7 @@ public class DatosG {
     }
 
     public int getEdad() {
-        return edad;
+        return  edad;
     }
 
     public void setEdad(int edad) {
