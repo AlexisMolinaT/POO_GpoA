@@ -18,8 +18,8 @@ public class Datos {
      */
     public static void main(String[] args) {
         System.out.println("--->DATOS GENERALES<---");
-        DatosG info = new DatosG (19,"ISC","POO");
-        String NumCon = info.getEdad()+" "+info.getCarrera()+" "+info.getMateria()+" ";
+        DatosG info = new DatosG (19,"ISC","POO","21550296");
+        String NumCon = info.getEdad()+" "+info.getCarrera()+" "+info.getMateria()+" "+info.getNumControl()+" ";
         
     }
     

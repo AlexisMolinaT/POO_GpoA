@@ -8,11 +8,13 @@ public class DatosG {
     int edad;
     String carrera;
     String materia;
+    String numControl;
 
-    public DatosG(int edad, String carrera, String materia) {
+    public DatosG(int edad, String carrera, String materia, String numControl) {
         this.edad = edad;
         this.carrera = carrera;
         this.materia = materia;
+        this.numControl = numControl;
     }
 
     public int getEdad() {
@@ -37,6 +39,13 @@ public class DatosG {
 
     public void setMateria(String materia) {
         this.materia = materia;
+    }
+      public String getNumControl() {
+        return numControl;
+    }
+
+    public void setEdad(String numControl) {
+        this.numControl = numControl;
     }
     
     
