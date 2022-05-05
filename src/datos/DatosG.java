@@ -5,18 +5,28 @@ package datos;
  * @author invitado
  */
 public class DatosG {
+    String nombre;
     int edad;
     String carrera;
     String materia;
     String numControl;
 
-    public DatosG(int edad, String carrera, String materia, String numControl) {
+    public DatosG(String nombre,int edad, String carrera, String materia, String numControl) {
+        this.nombre = nombre;
         this.edad = edad;
         this.carrera = carrera;
         this.materia = materia;
         this.numControl = numControl;
     }
 
+    public String getNombre() {
+        return  nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    
     public int getEdad() {
         return  edad;
     }
